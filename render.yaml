@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: decrypt-whatsapp-audio
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    plan: free
